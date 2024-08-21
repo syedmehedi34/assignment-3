@@ -1,11 +1,119 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rinterio</title>
+    <link rel="stylesheet" href="style.css">
+
+
+
+    <!-- font awesome cdn  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+    <!-- daisyUI cdn  -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- google font cdn  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+    <!-- ___________________________________
+
+     .manrope-font {
+        font-family: "Manrope", sans-serif;
+      } 
+__________________________________________--->
+    
+
 </head>
-<body>
+<body class="">      <!-- max-w-[1440px] mx-auto -->
+    <header class="px-8 md:px-28 pt-10 bg-base-200">
+        <!-- nav section  -->
+         <nav class="flex justify-between items-center">
+
+            <!-- log div  -->
+             <div class="flex gap-2 items-center justify-center">
+                <i class="fa-solid fa-arrow-right border-2 border-[#ABEF5F] rounded-full bg-[#ABEF5F] -rotate-45 p-1 text-[18px]	"></i>
+                <h1 class="text-[1.85rem] text-[#212121] font-extrabold">Rinterio</h1>
+             </div>
+
+
+             <!-- middle div  -->
+                <ul class="flex space-x-6 max-[640px]:hidden">
+                    <li class="text-[#737373] hover:text-[#494949] cursor-pointer">Home</li>
+                    <li class="text-[#737373] hover:text-[#494949] cursor-pointer">Services</li>
+                    <li class="text-[#737373] hover:text-[#494949] cursor-pointer">Portfolio</li>
+                    <li class="text-[#737373] hover:text-[#494949] cursor-pointer">Blogs</li>
+                    <li class="text-[#737373] hover:text-[#494949] cursor-pointer">Contact Us</li>
+                </ul>
+
+
+              <!-- right div  -->
+               <div class="flex justify-center items-center gap-4 max-[640px]:hidden">
+                <div >
+                    <i class="fa-solid fa-magnifying-glass bg-[#FFFFFF] border-[1px] border-[#E9E9E9] p-[10px] rounded-full text-[#737373]"></i>
+                </div>
+                <div>
+                    <i class="fa-solid fa-cart-shopping bg-[#FFFFFF] border-[1px] border-[#E9E9E9] p-[10px] rounded-full text-[#737373]"></i>
+                </div>
+
+                <button class="bg-[#ABEF5F] px-4 py-2 rounded-3xl">
+                    Book Consult
+                    <i class="fa-solid fa-arrow-right border-2 border-black bg-black rounded-full  -rotate-45 p-1 text-[16px] text-white ml-1"></i>
+                </button>
+          
+               </div>
+
+               <!-- hidden part  -->
+                <!-- <div> -->
+                    <i class="fa-solid fa-bars text-[#737373] border-[1px] border-[#E9E9E9]    p-[10px] rounded-full md:hidden"></i>
+                <!-- </div> -->
+
+
+
+
+         </nav>
+         <!-- nav section ends  -->
+
+
+
+
+         <!-- hero section starts  -->
+         <div class="hero  pt-6">
+            <div class="hero-content text-center">
+              <div class="w-[70%] mx-auto flex flex-col items-center">
+
+                <div class="">
+                    <img src="assets/banner.png" alt="" class="banner-img">
+                </div>
+                <h1 class="text-5xl font-extrabold text-[#212121] ">A barn house of this design has a striking appearance</h1>
+                <p class="py-6 text-[#494949] font-[500]">
+                    The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.
+                </p>
+                <button class="btn bg-[#ABEF5F] bg-opacity-60 rounded-3xl">
+                    View Details
+                    <i class="fa-solid fa-arrow-right border-2 border-[#ABEF5F] rounded-full bg-[#ABEF5F] -rotate-45 p-1 text-[18px]	"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+    </header>
+
+
+    
+    <main></main>
+
+    <footer></footer>
     
 </body>
 </html>
+
